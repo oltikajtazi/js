@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 33</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form onsubmit="return validation()" metho="POST">
+        <div class="name-container">
+        <label id="name-label" for="name">Name:</label>
+        <input type="text" name="name" id="name">
+        <span id="name-error">Plese enter a valide name</span>
+
+        </div>
+
+        <form onsubmit="return validation()" metho="POST">
+            <div class="age-container">
+            <label id="age-label" for="name">age:</label>
+            <input type="text" name="age" id="age">
+            <span id="age-error">Plese enter a valide age</span>
+    
+            </div>
+        </form>
+    </form>
+
+
+    <div class="city-container">
+        <label id="city_label" for="city">City</label>
+        <select name="city" id="city">city:</select>
+        <option value="" selected>
+
+        </option>
+        <option value="Prizren" selected>
+            Prizren
+        </option>
+        <option value="Prishtin" selected>
+            Prishtin
+        </option>
+        <option value="GJilan" selected>
+            Gjilan
+        </option>
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <button type="submit" name="submit">Send</button>
+
+    <script src="main.js"></script>
+    
+</body>
+</html>
