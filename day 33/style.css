@@ -8,3 +8,7 @@
     visibility: hidden;
     color: red;
 }
+#city-error{
+    visibility: hidden;
+    color: red;
+}
